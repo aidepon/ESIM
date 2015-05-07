@@ -6,30 +6,35 @@
     
         <title>who</title>
 
-        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="styles.css">       
+        <script src="mousetrap.min.js"></script>
+        <script src="jquery.js"></script>
         <script src="room.js"></script>
 
     </head>
 
-    <body>
-
-		<!-- Lights on -->
+	<body id="r4" class="object">
 		
-    	<input id="pluckButton" type="submit" value="">
-    	<input id="knifeButton" type="submit" value="">
-    	<input id="sDoorButton" type="submit" value="">
-
-		<!-- Lights off -->
+		<div id="lights" class="object"></div>
 		
-    	<input id="touchButton" type="submit" value="">
-    	<input id="handButton" type="submit" value="">
-    	<input id="stabButton" type="submit" value="">
-    
-<!-- 
-    	<audio src="???.mp3" autoplay loop hidden>
-    	Your browser does not support the <audio> element.   
-		</audio>
- -->
+		<div id="me4" class="object"></div>
+		<div id="petals" class="object"></div>
+		<div id="knife" class="object"></div>
+		<div id="door" class="object"></div>
+		
+		</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-62770503-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+		
 	</body>
 
 </html>

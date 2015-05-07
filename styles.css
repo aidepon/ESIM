@@ -2,47 +2,251 @@ body {
 	padding-top: 170px;
     color: black;
     font-family: gill sans; sans serif;
-    font-size: xx-large;
+    font-size: medium;
     font-weight: regular;
     letter-spacing: 2px;
     text-align: center;
-    background-image: ;
-	background-repeat: no-repeat;
-	background-size: cover;
-
     }
+    
+#lights {
+	background: url('images/lightson.gif') center no-repeat;   
+	background-position: center 
+	width: 65px;
+  	height: 172px;
+  	margin-top: -180px;
+  	}
+
+#lights.lights-off {
+	background: url('images/lightsoff.gif') center no-repeat;
+	background-position: center 
+	width: 65px;
+  	height: 172px; 
+  	margin-top: -180px;  	  
+}
+    
+#index {
+    background: 
+    	url('images/index.gif') no-repeat center fixed,
+    	url('images/on.jpg') ;
+}
+
+#index.lights-off {
+    background: 
+    	url('images/index.gif') no-repeat center fixed,
+    	url('images/off.jpg') ;
+}
 
 #startButton {
-    background: url(/images/'start.png') no-repeat;
-    cursor: pointer;
-    width: 100px;
-    height: 100px;
+    background: url('images/headlessFront.gif') no-repeat;
+    position: fixed; 
+    left: 40%; 
+    top:43%;
+	width: 106px;
+  	height: 223px; 
     border: none;
 }
 
 /* #startClick #start:hover */
 
 #infoButton {
-    background: url(/images/'info.png') no-repeat;
-    cursor: pointer;
+    background: url('images/r1/windowOn.gif') no-repeat;
+    position: fixed; 
+    left: 32%; 
+    top:27%;
     width: 100px;
     height: 100px;
     border: none;
 }
 
 #creditsButton {
-    background: url(/images/'credits.png') no-repeat;
-    cursor: pointer;
-    width: 100px;
-    height: 100px;
+    background: url('images/r1/flowerOn.gif') no-repeat;
+    position: fixed; 
+    left: 55%; 
+    top:35%;
+    width: 65px;
+    height: 170px;
     border: none;
 }
 
-#tryagain {
+#r1 {
+    background: 
+    	url('images/r1.gif') no-repeat center fixed,
+    	url('images/on.gif') ;
+}
 
+#r1.lights-off {
+    background: 
+    	url('images/r1off.gif') no-repeat center fixed,
+    	url('images/off.gif') ;
+}
+
+#me1 {
+    background: url('images/headlessFront.gif') no-repeat;
+    position: fixed; 
+    left: 40%; 
+    top:43%;
+	width: 108px;
+  	height: 225px; 
+    border: none;
+}
+
+#me1.lights-off {
+    background: url('images/cubeFront.gif') no-repeat;
+    position: fixed; 
+    left: 40%; 
+    top:43%;
+	width: 136px;
+  	height: 281px; 
+    border: none;
+}
+
+#window {
+    background: url('images/r1/windowON.gif') no-repeat;
+    position: fixed; 
+    left: 32%; 
+    top:27%;
+	width: 114px;
+  	height: 98px; 
+    border: none;
+}
+
+#window.lights-off {
+    background: url('images/r1/windowOFF.gif') no-repeat;
+    position: fixed; 
+    left: 32%; 
+    top:27%;
+	width: 114px;
+  	height: 98px; 
+    border: none;
+}
+
+#mirror {
+    background: url('images/r1/mirrorON.gif') no-repeat;
+    position: fixed; 
+    left: 32%; 
+    top:27%;
+	width: 114px;
+  	height: 98px; 
+    border: none;
+}
+
+#mirror.lights-off {
+    background: url('images/r1/trapdoor.gif') no-repeat;
+    position: fixed; 
+    left: 32%; 
+    top:27%;
+	width: 114px;
+  	height: 98px; 
+    border: none;
+}
+
+#flower {
+    background: url('images/r1/flowerON.gif') no-repeat;
+    position: fixed; 
+    left: 57%; 
+    top:37%;
+	width: 64px;
+  	height: 174px; 
+    border: none;
+}
+
+#flower.lights-off {
+    background: url('images/r1/flowerOFF.gif') no-repeat;
+    position: fixed; 
+    left: 57%; 
+    top:37%;
+	width: 90px;
+  	height: 147px; 
+    border: none;
+}
+
+#r2 {
+    background: 
+    	url('images/r2.gif') no-repeat center fixed,
+    	url('images/on.gif') ;
+}
+
+#r2.lights-off {
+    background: 
+    	url('images/r2off.gif') no-repeat center fixed,
+    	url('images/off.gif') ;
+}
+
+#me2 {
+    background: url('images/treeFront.gif') no-repeat;
+    position: fixed; 
+    left: 40%; 
+    top:43%;
+	width: 108px;
+  	height: 225px; 
+    border: none;
+}
+
+#me2.lights-off {
+    background: url('images/candleFront.gif') no-repeat;
+    position: fixed; 
+    left: 40%; 
+    top:43%;
+	width: 136px;
+  	height: 281px; 
+    border: none;
+}
+
+#r3 {
+    background: 
+    	url('images/r3.gif') no-repeat center fixed,
+    	url('images/on.gif') ;
+}
+
+#r3.lights-off {
+    background: 
+    	url('images/r3off.gif') no-repeat center fixed,
+    	url('images/off.gif') ;
+}
+
+#r4 {
+    background: 
+    	url('images/r4.gif') no-repeat center fixed,
+    	url('images/on.gif') ;
+}
+
+#r4.lights-off {
+    background: 
+    	url('images/r4off.gif') no-repeat center fixed,
+    	url('images/off.gif') ;
+}
+
+#r5 {
+    background: 
+    	url('images/r5.gif') no-repeat center fixed,
+    	url('images/on.gif') ;
+}
+
+#r5.lights-off {
+    background: 
+    	url('images/r5off.gif') no-repeat center fixed,
+    	url('images/off.gif') ;
+}
+
+#r6 {
+    background: 
+    	url('images/r6.gif') no-repeat center fixed,
+    	url('images/on.gif') ;
+}
+
+#r6.lights-off {
+    background: 
+    	url('images/r6off.gif') no-repeat center fixed,
+    	url('images/off.gif') ;
+}
+
+#end2 {
+    background: 
+    	url('images/end2.gif') no-repeat center fixed,
 }
 
 #footer {
+	bottom: 0px;
 	padding-bottom: 10px;
     color: black;
     font-family: gill sans; sans serif;

@@ -6,31 +6,35 @@
     
         <title>rejection</title>
 
-        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="styles.css">       
+        <script src="mousetrap.min.js"></script>
+        <script src="jquery.js"></script>
         <script src="room.js"></script>
 
     </head>
 
-    <body>
-
-		<!-- Lights on -->
+	<body id="r2" class="object">
 		
-    	<input id="motherButton" type="submit" value="">
-    	<input id="twirlButton" type="submit" value="">
-    	<input id="rDoorButton" type="submit" value="">
-
-		<!-- Lights off -->
+		<div id="lights" class="object"></div>
 		
-    	<input id="motheroffButton" type="submit" value="">
-    	<input id="killButton" type="submit" value="">
-    	<input id="rDooroffButton" type="submit" value="">
+		<div id="me2" class="object"></div>
+		<div id="mother" class="object"></div>
+		<div id="twirl" class="object"></div>
+		<div id="door" class="object"></div>
+		
+		</div>
 
-    
-<!-- 
-    	<audio src="???.mp3" autoplay loop hidden>
-    	Your browser does not support the <audio> element.   
-		</audio>
- -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-62770503-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+		
 	</body>
 
 </html>

@@ -6,24 +6,42 @@
     
         <title>home</title>
 
-        <link rel="stylesheet" type="text/css" href="index.css">
-        
+        <link rel="stylesheet" type="text/css" href="styles.css">       
         <script src="mousetrap.min.js"></script>
+        <script src="jquery.js"></script>
         <script src="index.js"></script>
 
     </head>
 
-    <body>
+<body id="index" class="object">
+		
+		<div id="lights" class="object"></div>
+		
+		<a href="r1.html"><div id="startButton" class="object"></div></a>
+		<a href="info.html"><div id="infoButton" class="object"></div></a>
+		<a href="credits.html"><div id="creditsButton" class="object"></div></a>
+
+
+		</div>
     
-		<a href="r1.html"><input id="startButton" type="submit" value="">
-		<a href="info.html"><input id="infoButton" type="submit" value="">
-		<a href="credits.html"><input id="creditsButton" type="submit" value="">
     
 <!-- CHECK if music is pulled from correct folder
     	<audio src=music/"???.mp3" autoplay loop hidden>
     	Your browser does not support the <audio> element.   
 		</audio>
  -->
+ 
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-62770503-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
 	</body>
 
 </html>
