@@ -51,7 +51,7 @@ body {
 #infoButton {
     background: url('images/r1/windowOn.gif') no-repeat;
     position: fixed; 
-    left: 32%; 
+    left: 30%; 
     top:27%;
     width: 100px;
     height: 100px;
@@ -62,22 +62,24 @@ body {
     background: url('images/r1/flowerOn.gif') no-repeat;
     position: fixed; 
     left: 55%; 
-    top:35%;
-    width: 65px;
-    height: 170px;
+    top:41%;
+    width: 72px;
+    height: 149px;
     border: none;
 }
 
+/* ROOM 1 FACADE */
+
 #r1 {
     background: 
-    	url('images/r1.gif') no-repeat center fixed,
-    	url('images/on.gif') ;
+    	url('images/r1/r1ON.gif') no-repeat center fixed,
+    	url('images/on.jpg') ;
 }
 
 #r1.lights-off {
     background: 
-    	url('images/r1off.gif') no-repeat center fixed,
-    	url('images/off.gif') ;
+    	url('images/r1/r1off.gif') no-repeat center fixed,
+    	url('images/off.jpg') ;
 }
 
 #me1 {
@@ -93,8 +95,8 @@ body {
 #me1.lights-off {
     background: url('images/cubeFront.gif') no-repeat;
     position: fixed; 
-    left: 40%; 
-    top:43%;
+    left: 39%; 
+    top:35%;
 	width: 136px;
   	height: 281px; 
     border: none;
@@ -103,7 +105,7 @@ body {
 #window {
     background: url('images/r1/windowON.gif') no-repeat;
     position: fixed; 
-    left: 32%; 
+    left: 30%; 
     top:27%;
 	width: 114px;
   	height: 98px; 
@@ -113,7 +115,7 @@ body {
 #window.lights-off {
     background: url('images/r1/windowOFF.gif') no-repeat;
     position: fixed; 
-    left: 32%; 
+    left: 30%; 
     top:27%;
 	width: 114px;
   	height: 98px; 
@@ -123,18 +125,18 @@ body {
 #mirror {
     background: url('images/r1/mirrorON.gif') no-repeat;
     position: fixed; 
-    left: 32%; 
-    top:27%;
-	width: 114px;
-  	height: 98px; 
+    left: 50%; 
+    top:32.5%;
+	width: 95px;
+  	height: 158px; 
     border: none;
 }
 
 #mirror.lights-off {
     background: url('images/r1/trapdoor.gif') no-repeat;
     position: fixed; 
-    left: 32%; 
-    top:27%;
+    left: 45%; 
+    top:61%;
 	width: 114px;
   	height: 98px; 
     border: none;
@@ -144,32 +146,44 @@ body {
     background: url('images/r1/flowerON.gif') no-repeat;
     position: fixed; 
     left: 57%; 
-    top:37%;
-	width: 64px;
-  	height: 174px; 
+    top:39%;
+    width: 72px;
+    height: 149px;
     border: none;
 }
 
 #flower.lights-off {
     background: url('images/r1/flowerOFF.gif') no-repeat;
     position: fixed; 
-    left: 57%; 
-    top:37%;
+    left: 56%; 
+    top:42.5%;
 	width: 90px;
   	height: 147px; 
     border: none;
 }
 
+#flower:hover {
+    background: url('images/r1/flowerHover.gif') no-repeat;
+    position: fixed; 
+    left: 57%; 
+    top:39%;
+    width: 72px;
+    height: 149px;
+    border: none;
+}
+
+/* ROOM 2 REJECTION */
+
 #r2 {
     background: 
     	url('images/r2.gif') no-repeat center fixed,
-    	url('images/on.gif') ;
+    	url('images/on.jpg') ;
 }
 
 #r2.lights-off {
     background: 
     	url('images/r2off.gif') no-repeat center fixed,
-    	url('images/off.gif') ;
+    	url('images/off.jpg') ;
 }
 
 #me2 {
@@ -192,52 +206,60 @@ body {
     border: none;
 }
 
+/* ROOM 3 DENIAL */
+
 #r3 {
     background: 
     	url('images/r3.gif') no-repeat center fixed,
-    	url('images/on.gif') ;
+    	url('images/on.jpg') ;
 }
 
 #r3.lights-off {
     background: 
     	url('images/r3off.gif') no-repeat center fixed,
-    	url('images/off.gif') ;
+    	url('images/off.jpg') ;
 }
+
+/* ROOM 4 SELF */
 
 #r4 {
     background: 
     	url('images/r4.gif') no-repeat center fixed,
-    	url('images/on.gif') ;
+    	url('images/on.jpg') ;
 }
 
 #r4.lights-off {
     background: 
     	url('images/r4off.gif') no-repeat center fixed,
-    	url('images/off.gif') ;
+    	url('images/off.jpg') ;
 }
+
+/* ROOM 5 MEANING */
 
 #r5 {
     background: 
     	url('images/r5.gif') no-repeat center fixed,
-    	url('images/on.gif') ;
+    	url('images/on.jpg') ;
 }
 
 #r5.lights-off {
     background: 
     	url('images/r5off.gif') no-repeat center fixed,
-    	url('images/off.gif') ;
+    	url('images/off.jpg') ;
 }
+
+/* ROOM 6 CLOSURE */
 
 #r6 {
     background: 
     	url('images/r6.gif') no-repeat center fixed,
-    	url('images/on.gif') ;
+    	url('images/on.jpg') ;
 }
 
 #r6.lights-off {
     background: 
     	url('images/r6off.gif') no-repeat center fixed,
-    	url('images/off.gif') ;
+    	url('images/off.jpg') ;
 }
 
 #end2 {
