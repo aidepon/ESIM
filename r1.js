@@ -4,32 +4,27 @@
 
 var mirrorOFFStat = false;
 var trapdoorStat = false;
+// 
+// window.onload = function () {
+// 	var mirrorOFFClicks = document.getElementById('mirror.lights-off'); 
+// 	mirrorOFFClicks.addEventListener('click', mirrorOFFClick);
+// 	
+// 	var trapdoorClicks = document.getElementById('trapdoor.lights-off'); 
+// 	trapdoorClicks.addEventListener('click', trapdoorClick);}
 
-mirrorOFF.onload = function () {
-	var mirrorOFFClicks = document.getElementById('mirror.lights-off'); 
-	mirrorOFFClicks.addEventListener('click', mirrorOFFClick);
-	
-trapdoor.onload = function () {
-	var trapdoorClicks = document.getElementById('trapdoor.lights-off'); 
-	trapdoorClicks.addEventListener('click', trapdoorClick);
-
-$( "#mirror.lights-off" ).click(function(
+$( "#mirror.lights-off" ).click(function(){
 
 		if (mirrorOFFStat == false) {
 		document.getElementById('mirror').setAttribute('id', 'mirror.lights-off:hover');
 						
-		mirrorOFFStat = true;) {
-   );
-});
+		mirrorOFFStat = true;}})
 
-$( "#trapdoor.lights-off" ).click(function(
+$( "#trapdoor.lights-off" ).click(function(){
 
 		if (trapdoorStat == false) {
 		document.getElementById('trapdoor').setAttribute('id', 'trapdoor.lights-off:hover');
 						
-		trapdoorStat = true;) {
-   );
-});
+		trapdoorStat = true;}})
 
 function clearFacade () {
 	if (mirrorOFFStat == true && trapdoorStat == true) {
@@ -37,5 +32,9 @@ function clearFacade () {
 		}
 		
 	else if (mirrorOFFStat == false && trapdoorStat == true) {
-		window.location.href= "index.html";
-		}}
+		window.location.href= "index.html";}
+		}
+		
+$( "p" ).click(function() {
+$( this ).slideUp();
+});

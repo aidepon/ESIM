@@ -14,6 +14,15 @@ $(function(){
     }); 
 });
 
+window.onload = function () {
+		$('.object').removeClass('lights-off');
+		}
+
+
+// $('trapdoor.lights-off').each(function() {
+//   var link = $(this).html();
+//   $(this).contents().wrap('<a href="r2.html?id="></a>');
+// });
 	
 	
 

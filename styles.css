@@ -1,5 +1,5 @@
 body {
-    color: black;
+    color: white;
     font-family: gill sans; sans serif;
     font-size: medium;
     font-weight: regular;
@@ -30,6 +30,27 @@ body {
 /* INDEX */
 /* INDEX */
 /* INDEX */
+
+#gameover {
+	padding-top: 50px;
+    background: 
+    	url('images/r4/HandFrontHover.gif') no-repeat center fixed,
+    	url('images/off.jpg') ;
+}
+
+#info {
+	padding-top: 50px;
+    background: 
+    	url('images/r1/r1ON.gif') no-repeat center fixed,
+    	url('images/on.jpg') ;
+}
+
+#credits {
+	padding-top: 50px;
+    background: 
+    	url('images/r1/r1OFF.gif') no-repeat center fixed,
+    	url('images/on.jpg') ;
+}
     
 #index {
     background: 
@@ -984,7 +1005,7 @@ body {
 #footer {
 	bottom: 0px;
 	padding-bottom: 10px;
-    color: black;
+    color: white;
     font-family: gill sans; sans serif;
     font-size: small;
     font-weight: regular;
