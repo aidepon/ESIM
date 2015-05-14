@@ -10,7 +10,7 @@ body {
     
 #lights {
 	background: url('images/lightson.gif') center no-repeat;   
-	background-position: center 
+	background-position: center ;
 	width: 65px;
   	height: 172px;
   	margin-top: -180px;
@@ -18,7 +18,7 @@ body {
 
 #lights.lights-off {
 	background: url('images/lightsoff.gif') center no-repeat;
-	background-position: center 
+	background-position: center ;
 	width: 65px;
   	height: 172px; 
   	margin-top: -180px;  	  
@@ -26,13 +26,13 @@ body {
     
 #index {
     background: 
-    	url('images/index.gif') no-repeat center fixed,
+    	url('images/index.gif') no-repeat center fixed;
     	url('images/on.jpg') ;
 }
 
 #index.lights-off {
     background: 
-    	url('images/index.gif') no-repeat center fixed,
+    	url('images/index.gif') no-repeat center fixed;
     	url('images/off.jpg') ;
 }
 
@@ -176,7 +176,7 @@ body {
 
 #r2 {
     background: 
-    	url('images/r2.gif') no-repeat center fixed,
+    	url('images/r2.gif') no-repeat center fixed;
     	url('images/on.jpg') ;
 }
 
