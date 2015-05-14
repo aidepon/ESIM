@@ -11,51 +11,9 @@ $(function(){
         } else {
             $('.object').addClass('lights-off');
         }
-        
     }); 
 });
 
-//  ROOM 1 FUNCTION
-// W : window > X, mirror > X, flower > X
-// B : window > X, mirror = event, door > home (after event > r2
-
-// var mirrorStat = false;
-// var doorStat = false;
-// 
-// mirror.onload = function () {
-// 	var mirrorClicks = document.getElementById('mirror'); 
-// 	mirrorClicks.addEventListener('click', mirrorClicks);
-// 	
-// door.onload = function () {
-// 	var doorClicks = document.getElementById('door'); 
-// 	doorClicks.addEventListener('click', doorClicks);
-// 	
-// function mirrorClick () {
-// 	if (mirrorStat == false) {
-// 		document.getElementById('mirror').setAttribute('id', 'mirrorClick');
-// 		
-// 	if (doorStat == true) {
-// 			document.getElementById('doorClick').setAttribute('id', 'door');}
-// 
-// 		mirrorStat = true;
-// 		doorStat = false;
-// 		
-// 		results ()
-// 	}}
-// 	
-// function doorClick () {
-// 	if (doorStat == false) {
-// 		document.getElementById('door').setAttribute('id', 'doorClick');
-// 		
-// 	if (mirrorStat == true) {
-// 			document.getElementById('mirrorClick').setAttribute('id', 'mirror');}
-// 						
-// 		doorStat = true;
-// 		mirrorStat = false;
-// 		
-// 		widow.location.href= "":
-// 		
-// 	}}
 	
 	
 
