@@ -64,7 +64,7 @@ body {
 }
 
 #infoButton {
-    background: url('images/r1/windowOn.gif') no-repeat;
+    background: url('images/r1/windowON.gif') no-repeat;
     position: fixed; 
     left: 30%; 
     top:27%;
@@ -84,7 +84,7 @@ body {
 }
 
 #creditsButton {
-    background: url('images/r1/flowerOn.gif') no-repeat;
+    background: url('images/r1/flowerON.gif') no-repeat;
     position: fixed; 
     right: 40%; 
     bottom:35%;
@@ -230,7 +230,7 @@ body {
 }
 
 #mirror.lights-off:hover {
-    background: url('images/r1/mirrorOFFHover.gif') no-repeat;
+    background: url('images/r1/mirrorOFFhover.gif') no-repeat;
     position: fixed; 
     left: 48%;
 	bottom: 45%;
