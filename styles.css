@@ -881,7 +881,7 @@ body {
     border: none;
 }
 
-#talbe.lights-off {
+#table.lights-off {
     background: url('images/r5/tableOFF.gif') no-repeat;
     position: fixed; 
   	left: 31%;
